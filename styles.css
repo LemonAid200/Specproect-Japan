@@ -1,21 +1,24 @@
-
 *{
 	padding: 0;
 	margin: 0;
+	font-family: "MDN47_0";
 }
 
+
+
 p{
-	margin: 20px 0 20px 0;
 	text-indent: 15px;
+	font-family: "DNF55";
 }
 
 .header {
 	width: 100%;
 	position	: relative;
+	margin-bottom: 30px;
 }
 
 .main{
-	padding: 5%;
+	padding: 3%;
 }
 
 .header_image{
@@ -30,11 +33,15 @@ p{
 	margin-top: 10px;
 	width: 100%;	
 }
+
+.intro_first_sentece{
+	font-family: "MDN87_0";
+}
 .header_logo{
 	position: absolute;
 	color: aliceblue;
 	top: 20px;
-	left: 20px;
+	left: 10px;
 	display: flex;
 
 }
@@ -43,6 +50,7 @@ p{
 	width: fit-content;
 	max-height: fit-content;
 	padding: 3px;
+	font-weight: 700;
 }
 
 .header_title{
@@ -72,7 +80,8 @@ ul{
 }
 
 li::marker{
-	margin-right: 5px;
+	content: '●  ';
+	font-size:large;
 }
 
 .intro{
@@ -85,8 +94,8 @@ li::marker{
 }
 
 .stars{
-	margin: 20px 0 20px 50%;
-	transform: translate(0 -50%);
+	margin: 20px;
+  text-align: center;
 }
 
 /* .title::before{
@@ -94,6 +103,13 @@ li::marker{
 	border: 1px solid white;
 	width: 10px;
 } */
+
+.todo_section_title{
+	font-family: 'TTP';
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
 
 @font-face {
 	font-family: "DNF55"; 
