@@ -34,7 +34,12 @@ p{
 	width: 100%;	
 }
 
-.intro_first_sentece{
+.intro_title{
+	font-weight: bolder;
+  font-size: xxx-large;
+}
+
+.intro_first_sentence{
 	font-family: "MDN87_0";
 }
 .header_logo{
