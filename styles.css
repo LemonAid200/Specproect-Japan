@@ -4,6 +4,11 @@
 	margin: 0;
 }
 
+p{
+	margin: 20px 0 20px 0;
+	text-indent: 15px;
+}
+
 .header {
 	width: 100%;
 	position	: relative;
@@ -12,8 +17,18 @@
 .main{
 	padding: 5%;
 }
+
 .header_image{
 		width: 100%;			
+}
+
+.intro_text{
+	margin: 20px 0 20px 0;
+}
+
+.content_image{
+	margin-top: 10px;
+	width: 100%;	
 }
 .header_logo{
 	position: absolute;
@@ -47,8 +62,31 @@
 	text-align: center;
 }
 
+.number_1{
+	position: absolute;
+	right: 5%;
+}
+
 ul{
 	list-style-position:inside;
+}
+
+li::marker{
+	margin-right: 5px;
+}
+
+.intro{
+	margin-bottom: 10px;
+}
+
+.line{
+	border-top: 1px dashed #000;
+ 	height: 18px; 
+}
+
+.stars{
+	margin: 20px 0 20px 50%;
+	transform: translate(0 -50%);
 }
 
 /* .title::before{
