@@ -113,62 +113,62 @@ li::marker{
 
 @font-face {
 	font-family: "DNF55"; 
-	src: url("/fonts/DNF55.otf") format("truetype"); 
+	src: url("fonts/DNF55.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal; 
 	}
 @font-face {
 	font-family: "KozGoPr6N-Regular"; 
-	src: url("/fonts/KozGoPr6N-Regular.otf") format("truetype"); 
+	src: url("fonts/KozGoPr6N-Regular.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "MDN47_0"; 
-	src: url("/fonts/MDN47_0.otf") format("truetype"); 
+	src: url("fonts/MDN47_0.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "MDN87_0"; 
-	src: url("/fonts/MDN87_0.otf") format("truetype"); 
+	src: url("fonts/MDN87_0.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	} 
 
 @font-face {
 	font-family: "MDT45_0"; 
-	src: url("/fonts/MDT45_0.otf") format("truetype"); 
+	src: url("fonts/MDT45_0.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "MDT55_0"; 
-	src: url("/fonts/MDT55_0.otf") format("truetype"); 
+	src: url("fonts/MDT55_0.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "Probel"; 
-	src: url("/fonts/Probel.otf") format("truetype"); 
+	src: url("fonts/Probel.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "wingding"; 
-	src: url("/fonts/wingding.ttf") format("truetype"); 
+	src: url("fonts/wingding.ttf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
 
 @font-face {
 	font-family: "TTP"; 
-	src: url("/fonts/TypeType\ -\ TT\ Polls\ Script\ Bold.otf") format("truetype"); 
+	src: url("fonts/TypeType\ -\ TT\ Polls\ Script\ Bold.otf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
 	}
