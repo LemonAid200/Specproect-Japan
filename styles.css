@@ -67,13 +67,7 @@ p{
 }
 
 .number{
-	color: aliceblue;
-	background: #000;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	font-size: x-small;
-	text-align: center;
+	font-size: x-large;
 }
 
 .number_1{
