@@ -12,13 +12,12 @@ p{
 }
 
 .header {
-	width: 100vw;
+	width: 100%;
 	position	: relative;
 	margin-bottom: 30px;
 }
 
 .main{
-	width: 100;
 	padding: 3%;
 }
 
