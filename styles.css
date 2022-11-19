@@ -101,6 +101,7 @@ li::marker{
 }
 
 .text_content{
+	width: 100%;
 	margin: 30px 0 30px 0;
 }
 
