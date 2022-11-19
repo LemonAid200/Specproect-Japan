@@ -66,6 +66,26 @@ p{
 	margin-left: 10px;
 }
 
+.header_title:after {
+	content: '';
+	width: 9px;
+	height: 1px;
+	background: white;
+	position: absolute;
+	bottom: 12px;
+	left: 127px;
+}
+
+.header_title::before {
+	content: '';
+	width: 9px;
+	height: 1px;
+	background: white;
+	position: absolute;
+	bottom: 26px;
+	left: 57px;
+}
+
 .number{
 	font-size: x-large;
 }
