@@ -95,6 +95,7 @@ p{
 	left: -36px;
 	top: 11px;
 	border-top: 1px solid black;
+	border-left: 1px solid white;
 }
 
 .intro_author::before::before{
