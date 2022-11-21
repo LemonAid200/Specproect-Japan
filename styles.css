@@ -21,6 +21,47 @@ p{
 	padding: 5%;
 }
 
+/* .pencil{
+	width: 25px;
+	height: 6px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	position: relative;
+	transform: rotate(-45deg);
+}
+
+.pencil::after{
+	content: '';
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: absolute;
+    background-color: #000;
+    top: 1px;
+    left: -11px;
+}
+
+.pencil::before{
+	content: ' ';
+	width: 6px;
+	height: 6px;
+	background-color: #0000ff00;
+	border-radius: 2px;
+	position: absolute;
+	border-left: 2px solid #000;
+	border-top: 2px solid #000;
+	transform: rotate(-45deg);
+	left: -4px;
+	top: -1px;
+} */
+
+
+
+
+
+
 .header_image{
 		width: 100%;			
 }
@@ -38,6 +79,71 @@ p{
 	line-height: 50px;
 	font-weight: bolder;
   font-size: xxx-large;
+}
+
+.intro_author{
+	position: relative;
+	margin-left: 30px;
+}
+
+.intro_author::before{
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 40px;
+	background-color: white;
+	left: -36px;
+	top: 11px;
+	border-top: 1px solid black;
+}
+
+.intro_author::before::before{
+	width: 25px;
+	height: 6px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	position: absolute;
+	transform: rotate(-45deg);
+}
+
+.pencil::before{
+	content: '';
+	width: 8px;
+	height: 1px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	position: absolute;
+	transform: rotate(-45deg);
+	left: -10px;
+	top: 2px;
+}
+
+.pencil_head::after{
+	content: '';
+	width: 1px;
+	height: 1px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	position: absolute;
+	background-color: #000;
+	top: 10px;
+	left: -13px;
+}
+
+.pencil_head::before{
+	content: ' ';
+	width: 2px;
+	height: 2px;
+	background-color: #0000ff00;
+	border-radius: 0px 2px 0px 2px;
+	position: absolute;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	transform: rotate(-90deg);
+	left: -10px;
+	top: 5px;
 }
 
 .intro_first_sentence{
